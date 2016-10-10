@@ -4,12 +4,14 @@ nav{
     height: 50px;/*行高与li,a一致*/
 
 }
-
+header{
+    background: rgba(0,0,0,0.4);//调节header的亮度
+}
 #banner{
     height: 700px;
-    background-image:url("../img/banner.jpg");
-    background-position: bottom;
-    background-color:#ff0000;
+    /*background-image:url("../img/banner.jpg");*/
+    /*background-position: bottom;*/
+    /*background-color:#ff0000;*/
     /*opacity: 400;*/
     /*filter: brightness(2.3);*/
     /*opacity:0.5;*/
@@ -66,7 +68,7 @@ button{
     padding:14px 60px;
 }
 #banner .inner .more{
-    margin-top: 260px;/*上边距*/
+    margin-top: 220px;/*上边距*/
 
 }
 .sub-heading{
@@ -131,3 +133,73 @@ hr{
 .sub-heading{
     font-size: 18px;
 }
+.gray-section{
+    background-color: #3c3a32;
+    color: white;
+}
+.gray-section .img-section{
+    width:45%;
+}
+.img-section img{
+    width: 100%;
+
+}
+ul{
+    margin: 0;
+}
+
+.gray-section .text-section{
+    width: 55%;
+}
+
+.article-preview > div{
+    float: left;
+}
+.article-preview:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text-section{
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+.text-section h2{
+    mso-grid-bottom: 20px;
+}
+
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+footer{
+    background-color: pink;
+    color: #000;
+    min-height: 200px;
+    text-align: center;
+}
+
+ul.share-group{
+    display: block;
+    width: 1080px;
+    margin:0 auto;
+    padding: 50px;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+.copy{
+    padding: 20px;
+}
+
+.main{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;//背景图固定不动
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
